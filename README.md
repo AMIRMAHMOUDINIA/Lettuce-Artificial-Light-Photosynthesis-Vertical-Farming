@@ -78,10 +78,20 @@ The figures will be saved in the `figures/` folder.
     └── GITHUB_UPLOAD_STEPS.md
 ```
 
-## Data provenance note
+## Data provenance
 
-Before making the repository public, confirm that the dataset label accurately reflects the true origin of the data. If these values are representative, simulated, or literature-inspired rather than original laboratory measurements, describe them explicitly as such.
+The measurements in this dataset were collected during a vertical 
+farming internship I completed in 2022 as part of my Bachelor's 
+degree. We were growing lettuce under different LED lighting 
+setups in a controlled environment, and I recorded photosynthetic 
+and fluorescence readings across the red:blue treatment levels. 
+I later used these observations to build this analysis in R, 
+mainly to practice working with plant physiology data in a 
+reproducible and documented way.
 
-## Suggested repository description
+## Note
 
-Reproducible R analysis of red:blue LED spectrum effects on lettuce photosynthesis, chlorophyll fluorescence, and biomass response.
+This is a portfolio project. The analysis was done independently 
+after the internship, and the goal was to apply quantitative 
+skills to real controlled-environment data rather than leave the 
+measurements sitting in a notebook.
